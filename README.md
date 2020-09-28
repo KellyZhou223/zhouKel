@@ -1,3 +1,3 @@
-# zhouKelly
+# Kelly Zhou
 
 Hello world!
