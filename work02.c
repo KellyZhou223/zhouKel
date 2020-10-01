@@ -14,8 +14,7 @@ int main(){
 	double d = 12.3456789;
 
 	//Testing the values of the different types
-	printf("Float values: %f %f\n", f, f2); //First float printed 14.999999 (all digits) but the second
-											//rounded to 6 digits of precision after the decimal point- 15.000000
+	printf("Float values: %f %f\n", f, f2); //First float printed 14.999999 (all digits) but the second rounded to 6 digits of precision after the decimal point- 15.000000
 	printf("Testing precision of float: %0.3f\n", f); //rounded to specified number of digits after point
 	printf("Double value: %lf\n", d); //rounded to six digits after the decimal point- 12.345679
 
