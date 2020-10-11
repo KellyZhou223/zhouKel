@@ -7,6 +7,7 @@
 #include <time.h>
 
 int main(){
+	//initializing variables
 	int ray[10];
 	int reverse[10];
 	int i;
@@ -25,11 +26,10 @@ int main(){
 	*rp=0;
 	printf("%d\n", *rp);
 	
-	//Populate reverse with the values in ray in reverse order 
+	//Populate reverse with the values in ray in reverse order and print the values out
 	printf("reverse: ");
 	for (i=0; i<10; i++){
-		*(revp+i)=*rp;
-		rp--;
+		*(revp+i)=*(rp-i);
 		printf("%d\t", *(revp+i));
 	}
 
